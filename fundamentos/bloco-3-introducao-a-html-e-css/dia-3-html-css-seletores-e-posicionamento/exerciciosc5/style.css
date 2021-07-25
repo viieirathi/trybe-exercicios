@@ -1,0 +1,23 @@
+h3 {
+	font-style: italic;
+}
+
+div:hover{
+    border: 1px solid black;
+}
+div.a{
+    background-color: red;
+}
+div.b{
+    background-color: green;
+}
+div.c{
+    font-size: 19px;
+    background-color: rgb(67, 82, 37);
+}
+div.d{
+    background-color: rgb(47, 47, 92);
+}
+div.e{
+    background-color: yellow;
+}
