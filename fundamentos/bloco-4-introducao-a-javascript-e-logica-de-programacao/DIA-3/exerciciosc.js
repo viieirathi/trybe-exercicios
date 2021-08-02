@@ -6,10 +6,6 @@
 // }
 
 
-// // for (let number of fruits) {
-// //   soma += fruits[index]
-// // }
-
 // if(fruits > 15){
 //   soma += fruits[index]
 //   console.log("O valor da array é maior", fruits);
