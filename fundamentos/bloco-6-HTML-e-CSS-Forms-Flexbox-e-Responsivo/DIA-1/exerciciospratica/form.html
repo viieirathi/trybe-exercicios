@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Curriculo</title>
+  </head>
+  <body>
+    <header><h1>Formulário de Curriculo</h1></header>
+    <form action="">
+      <fieldset>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" required maxlength="40" />
+        <br />
+        <label for="e-mail">E-mail:</label>
+        <input type="email" name="e-mail" id="e-mail" required maxlength="50" />
+        <br />
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" required maxlength="11" />
+        <br />
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="adress" required maxlength="200" />
+        <br />
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="city" id="cidade" required maxlength="28" />
+        <br />
+        <label for="estados"></label>
+        <select name="states" id="estados" required></select>
+        <label for="casa"
+          >Casa
+          <input type="radio" name="Moradia" id="casa" />
+        </label>
+        <label for="Apartamento"
+          >Apartamento
+          <input type="radio" name="Moradia" id="apartamento" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="textarea"
+          >Resumo do Currículo:
+          <br />
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            maxlength="1000"
+            required
+          ></textarea>
+        </label>
+        <br />
+
+        <label for="cargo">Cargo:</label>
+        <input type="text" name="cargo" id="cargo" required />
+        <br />
+        <label for="descricao">Descrição de cargo:</label>
+        <input type="text" name="description" id="descricao" maxlength="500" required />
+        <br />
+        <label for="date">Data de Inicio:</label>
+        <input type="text" name="dateIni" id="date" />
+      </fieldset>
+      <button id="send" type="submit">Enviar Formulário</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
