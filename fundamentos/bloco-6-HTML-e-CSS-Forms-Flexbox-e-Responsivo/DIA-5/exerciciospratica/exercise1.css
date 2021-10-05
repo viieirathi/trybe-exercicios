@@ -1,0 +1,29 @@
+body {
+font-size: 20px;
+margin: 30px;
+
+}
+h1 {
+font-size: 15px;
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  
+body {
+  background-color: lightcoral;
+  font-size: 25px;
+}
+}
