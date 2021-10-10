@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  border: 1px black solid;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-image: url('https://img4.hulu.com/user/v3/artwork/01c6f97f-3686-4ce0-b47b-d3dde60c89c2?base_image_bucket_name=image_manager&base_image=b9a203d4-9bb7-4c8c-96f3-b3e522d1e28b&size=1200x630&format=jpeg&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C43de608c-9b1d-419b-9f72-df900b91d862%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D');
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bordas {
+  margin: 10px;
+  color: black;
+  border-radius: 30px;
+  font-weight: bolder;
+}
